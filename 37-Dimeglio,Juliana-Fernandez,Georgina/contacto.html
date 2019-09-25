@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Contact us</title>
+</head>
+<body id="contacto">
+    <header id="comienzo">
+        <nav class="navbar navbar-expand-lg navbar-light contact navbar fixed-top ">
+            <a class="navbar-brand" href="index.html">OH!My Dorama</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="ranking.html">Ranking</a>
+                    <a class="nav-item nav-link active" href="favoritos.html">Favoritos</a>
+                    <a class="nav-item nav-link active" href="contacto.html" target="_blank">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>SUSCRIBITE Y RECIBÍ NOVEDADES TODAS LAS SEMANAS!!!</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="text" class="form-control" id="inputSurname" placeholder="Apellido">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="number" class="form-control" id="inputAge" placeholder="Edad">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="@Email">
+                </div>
+                <div class="form-group col-md-4">
+                    <select id="inputState" class="form-control">
+                        <option selected>Preferencias...</option>
+                        <option>Accion y Aventura</option>
+                        <option>Comedia</option>
+                        <option>Historico</option>
+                        <option>Drama</option>
+                        <option>Romance</option>
+                        <option>Fantasia</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <select id="inputState" class="form-control">
+                        <option selected>Localidad...</option>
+                        <option>Tandil</option>
+                        <option>Azul</option>
+                        <option>Loberia</option>
+                        <option>Olavarria</option>
+                        <option>Mar del Plata</option>
+                        <option>Necochea</option>
+                        <option>Balcarce</option>
+                        <option>Rauch</option>
+                        <option>Benito Juarez</option>
+                        <option>Gardey</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Activar notificaciones
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4 offset-md-4">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+                    <div class="captchaCont">
+                        <div class="validar">
+                            <p class="seguridad">Ingrese los numeros de la imagen</p>
+                            <div id="captcha">                           
+                            </div>
+                        </div>
+                        <div id="captDiv"> 
+                            <p class="seguridad">Aqui:</p>
+                            <input id="capt" type="text" name= "" value="">
+                        </div>           
+                    </div>
+                    <button type= "button" id="botonEnviar" class="btn btn-primary">Enviar</button>
+                    <div id="mensaje">    
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://ar.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+        <a href="https://www.skype.com/es/" target="_blank"><i class="fa fa-skype"></i></a>
+    </footer>
+    <script type="text/javascript" src="js/doramas.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
