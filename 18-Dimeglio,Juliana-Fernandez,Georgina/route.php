@@ -5,6 +5,7 @@ require_once "Controllers/actorController.php";
 require_once "Controllers/doramaController.php";
 require_once "models/actorModel.php";
 require_once "models/doramaModel.php";
+require_once "views/indexView.php";
 
 $action = $_GET["action"];
 define("BASE_URL", 'http://'.$_SERVER["SERVER_NAME"].':'.$_SERVER["SERVER_PORT"].dirname($_SERVER["PHP_SELF"]).'/');
@@ -15,12 +16,14 @@ define("URL_LOGOUT", 'http://'.$_SERVER["SERVER_NAME"].':'.$_SERVER["SERVER_PORT
 //$controller = new TareasController();
 
 if($action == ''){
-    $model = new doramaModel();
+    /*$model = new doramaModel();
     $model->InsertarDorama('lalala','drama','lo lo lo',12,true,2);
     $model->BorrarDorama(5);
     $model->EditarDorama(2,'lelele','drama','lo lo lo',17,true,2);
-    echo json_encode($model->GetDoramas()) ;
-    //$controller->GetTareas();
+    echo json_encode($model->GetDoramas()) ;*/
+    $index = new indexView();
+    $index-> DisplayIndex('OH!My Dorama');
+  
 }else{
     if (isset($action)){
         $partesURL = explode("/", $action);
