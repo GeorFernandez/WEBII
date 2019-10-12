@@ -21,32 +21,28 @@
                 <article>
                     <h2 class="ranking">Ranking Top Ten Doramas:</h2>
                     <ol>
-                        <li>Goblin</li>
-                        <li>Scarlet Heart</li>
-                        <li>Bride of the water god</li>
-                        <li>Cinderella and four knights</li>
-                        <li>Memories of the Alhambra</li>
-                        <li>Good Doctor</li>
-                        <li>Faith</li>
-                        <li>Strong woman do bong soon</li>
-                        <li>Are you Human too?</li>
-                        <li>Athena</li>
+                        <li><a href="https://www.estrenosdoramas.net/2016/12/goblin.html" target="_blank">Goblin</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2016/08/moon-lovers-scarlet-heart-ryeo.html" target="_blank">Scarlet Heart</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2017/10/black-ocn.html" target="_blank">Black</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2016/08/cinderella-and-four-knights.html" target="_blank">Cinderella and four knights</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2018/12/memories-of-the-alhambra.html" target="_blank">Memories of the Alhambra</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2013/09/good-doctor.html" target="_blank"> Good Doctor</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2017/07/bride-of-the-water-god.html" target="_blank"> Bride of the water god</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2017/02/strong-woman-do-bong-soon.html" target="_blank">Strong woman do bong soon</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2018/06/are-you-human-too.html" target="_blank">Are you Human too?</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2013/09/athena.html" target="_blank">Athena</a></li>
+                        
                     </ol>
                 </article>
 
                 <article>
                     <h2 class="ranking">Ranking Top Ten Películas:</h2>
                     <ol class="lista">
-                        <li>Train to Busan</li>
-                        <li>The Swimmers</li>
-                        <li>A man and a woman</li>
-                        <li>A werewolf boy</li>
-                        <li>Forgotten</li>
-                        <li>Always</li>
-                        <li>Psychokinesis</li>
-                        <li>Seom</li>
-                        <li>The Handmaden</li>
-                        <li>Bom yeoreum gaeul gyeoul geurigo bom</li>
+                        <li><a href="https://www.estrenosdoramas.net/2016/09/pelicula-train-to-busan.html" target="_blank">Train to Busan</a></li>
+                        <li><a href="https://www.inkapelis.tv/the-swimmers/" target="_blank">The Swimmers</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2017/01/pelicula-a-man-and-a-woman.html" target="_blank">A man and a woman</a></li>
+                        <li><a href="https://www.estrenosdoramas.net/2016/10/a-werewolf-boy.html" target="_blank">A werewolf boy</a></li>
+                        <li><a href="http://pelisplus.co/pelicula/psychokinesis/" target="_blank">Psychokinesis</a></li>
                     </ol>
                 </article>
             </div>

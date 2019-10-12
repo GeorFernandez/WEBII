@@ -7,9 +7,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="ranking.html">Ranking</a>
-                    <a class="nav-item nav-link active" href="favoritos.html">Favoritos</a>
-                    <a class="nav-item nav-link active" href="contacto.html" target="_blank">Contacto</a>
+                    <a class="nav-item nav-link active" href="actorView.php">Actores</a>
+                    <a class="nav-item nav-link active" href="doramaView.php">Doramas</a>
+                    <a class="nav-item nav-link active" href="contacto.html" target="_blank">Login Administrador</a>
                 </div>
             </div>
         </nav>
