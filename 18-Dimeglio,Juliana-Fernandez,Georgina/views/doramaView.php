@@ -9,10 +9,10 @@ class doramaView {
 
     }
 
-    public function DisplayDoramas($Titulo){
+    public function DisplayDoramas($titulo){
 
         $smarty = new Smarty();
-        $smarty->assign('Titulo',$Titulo);
+        $smarty->assign('Titulo',$titulo);
         $smarty->assign('BASE_URL',BASE_URL);
         $smarty->display('templates/doramas.tpl');
     }  
